@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+.sidebar{
+    background-color: rgb(226, 226, 226); */
+    width: 20vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar nav{
+    padding: 45px;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style-type:none;
+    font-size: 30px;
+    padding: 21px;
+}
+.sidebar nav li a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+.main{
+   * background-color: yellow;*/
+    width: 80vw;
+
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+   /* background-color: rgb(219, 224, 75);*/
+    height: 62vh;
+    width: 75vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 92px;
+}
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 20px;
+
+}
+
+.devpic img{
+    height: 62vh;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    border-radius: 20px;
+    padding: 11px 22px;
+    color: white;
+    background-color:  #3566c9;
+    cursor: pointer;
+    font-size: 17px;
+}
+.buttons button:hover{
+    background-color: white;
+   color:  #3566c9;
+}
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0px 20px;
+    padding-top: 144px;
+
+   
+.contactform h1{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
